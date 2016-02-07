@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles.css" />
+	<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="menuclickhandling.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -13,7 +15,24 @@
 		<nav class="topnav">		
 				<ul>
 					<li>
-						<a href="asd">1</a>
+						<a href class="clicktoexpand">1</a>
+						<ul class="level1nav active">
+							<li>
+								<a href="This is subnav">This is subnav</a>
+								<a href="">"This also</a>
+								<a href="">And so is this</a>
+							</li>
+							<li>
+								<a href="This is subnav">This is subnav</a>
+								<a href="">"This also</a>
+								<a href="">And so is this</a>
+							</li>
+							<li>
+								<a href="This is subnav">This is subnav</a>
+								<a href="">"This also</a>
+								<a href="">And so is this</a>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<a href="asd">2</a>
@@ -27,5 +46,9 @@
 				</ul>		
 		</nav>
 	</div><!--Wrapper-->
+
+	
+	
+
 </body>
 </html>

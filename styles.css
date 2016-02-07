@@ -57,3 +57,11 @@ body{
 .topnav ul li a{
 	display: block;
 }
+
+.clicktoexpand{
+	display: block;
+}
+
+ul.level1nav.active{
+	display: none;
+}
